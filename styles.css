@@ -1,3 +1,7 @@
+/*INDEX PAGE CSS */
+
+
+
 html {
     background-color: rgba(153, 47, 47, 0.664)
 }
@@ -7,7 +11,7 @@ p {
     text-align: justify;
     font-family: 'Crimson Text', serif;
     font-size: 18px;
-    color: red;
+    color:black;
 }
 
 /* Master of Wisdom paragraph CSS */
@@ -19,7 +23,7 @@ p.masterOfWisdom {
 /* Brand Logo Icon CSS */
 i.large.material-icons {
     font-size: 60px;
-    background-color: tan;
+    background-color: blueviolet;
 }
 
 h1 {
@@ -35,16 +39,91 @@ img.responsive-img {
     float: left;
     margin-right: 1rem;
 }
-a href{
-    color:red
+
+/*INDEX PAGE CSS END*/
+
+
+
+a:link {
+color: red;
+text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: hotpink;
+    color: orangered;
+    text-decoration: underline;
 }
 
 /* selected link */
 a:active {
-    color: crimson;
+    color: rgb(95, 10, 10);
+    text-decoration: underline;
+
+}
+
+
+
+/*ABOUT PAGE CSS START*/
+
+
+/* about CSS */
+
+/* Brand Logo Icon CSS */
+i.large.material-icons {
+    font-size: 60px;
+}
+
+/* Upper Horizontal Line CSS */
+#upper-horizontal-line {
+    width: 30%;
+}
+
+/* Header CSS */
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+/* First Paragraph CSS */
+#first-paragraph {
+    text-align: justify;
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+/* Second Paragraph CSS */
+#second-paragraph {
+    text-align: justify;
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+/* First img CSS */
+#first-img {
+    max-width: 50%;
+    height: auto;
+    float: right;
+    margin-left: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+/* Second img CSS */
+#second-img {
+    max-width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+/* Middle Horizontal Line CSS */
+#middle-horizontal-line {
+    width: 10rem;
+    margin-bottom: 2rem;
 }
