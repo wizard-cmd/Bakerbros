@@ -1,0 +1,50 @@
+html {
+    background-color: rgba(153, 47, 47, 0.664)
+}
+
+/* paragraph CSS */
+p {
+    text-align: justify;
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+    color: red;
+}
+
+/* Master of Wisdom paragraph CSS */
+p.masterOfWisdom {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+/* Brand Logo Icon CSS */
+i.large.material-icons {
+    font-size: 60px;
+    background-color: tan;
+}
+
+h1 {
+    color: blue;
+    font-family: 'Dancing Script',
+    cursive;
+}
+
+/* img CSS */
+img.responsive-img {
+    max-width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 1rem;
+}
+a href{
+    color:red
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: crimson;
+}
