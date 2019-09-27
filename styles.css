@@ -11,7 +11,7 @@ p {
     text-align: justify;
     font-family: 'Crimson Text', serif;
     font-size: 18px;
-    color:black;
+    color: black;
 }
 
 /* Master of Wisdom paragraph CSS */
@@ -28,9 +28,8 @@ i.large.material-icons {
 }
 
 h1 {
-    color: blue;
+    color: hotpink;
     font-family: 'Dancing Script',
-    cursive;
 }
 
 /* img CSS */
@@ -46,8 +45,8 @@ img.responsive-img {
 
 
 a:link {
-color: red;
-text-decoration: none;
+    color: red;
+    text-decoration: none;
 }
 
 /* mouse over link */
@@ -129,24 +128,27 @@ h1 {
     margin-bottom: 2rem;
 }
 
+.Mar {
+    margin: 125x 135px;
+}
 
 
 
 /*TESTINGPAGE CSS START */
 
- body,
- h1,
- h2,
- h3,
- h4,
- h5,
- h6 {
-     font-family: "Karma", sans-serif
- }
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Karma", sans-serif
+}
 
- .w3-bar-block .w3-bar-item {
-     padding: 20px
- }
+.w3-bar-block .w3-bar-item {
+    padding: 20px
+}
 
 
- /*TESTINGPAGE CSS END */
+/*TESTINGPAGE CSS END */
