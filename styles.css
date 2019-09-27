@@ -24,6 +24,7 @@ p.masterOfWisdom {
 i.large.material-icons {
     font-size: 60px;
     background-color: blueviolet;
+    margin: 2
 }
 
 h1 {
@@ -127,3 +128,25 @@ h1 {
     width: 10rem;
     margin-bottom: 2rem;
 }
+
+
+
+
+/*TESTINGPAGE CSS START */
+
+ body,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-family: "Karma", sans-serif
+ }
+
+ .w3-bar-block .w3-bar-item {
+     padding: 20px
+ }
+
+
+ /*TESTINGPAGE CSS END */
