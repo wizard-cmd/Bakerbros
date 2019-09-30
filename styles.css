@@ -128,13 +128,51 @@ h1 {
     margin-bottom: 2rem;
 }
 
-.Mar {
+.Mar1 {
     margin: 125x 135px;
+    opacity:.1
+}
+.Mar2 {
+    margin: 125x 135px;
+    opacity:.2
+}
+.Mar3 {
+    margin: 125x 135px;
+    opacity: .3
+}
+.Mar4 {
+    margin: 125x 135px;
+    opacity: .4
+}
+.Mar5{
+    margin: 125x 135px;
+    opacity: .5
+}
+.Mar6 {
+    margin: 125x 135px;
+    opacity: .6
+}
+.Mar7 {
+    margin: 125x 135px;
+    opacity: .7
+}
+.Mar8 {
+    margin: 125x 135px;
+    opacity: .8
+}
+.Mar9 {
+    margin: 125x 135px;
+    opacity: .9
 }
 
 
 
 /*TESTINGPAGE CSS START */
+
+.navbar-toggle{
+    size:1000px;
+}
+
 
 body,
 h1,
@@ -152,3 +190,16 @@ h6 {
 
 
 /*TESTINGPAGE CSS END */
+
+
+/* REVIEWS PAGE CSS*/
+body {
+background-image: url("img/sunset.jpg");
+background-position: 50% 50%;
+background-repeat: repeat;
+background-size: 12000px;
+}
+
+
+
+
