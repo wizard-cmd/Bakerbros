@@ -1,72 +1,83 @@
+<!DOCTYPE html>
+<html>
 
-<!--new navbar--Nabeel tests this monday -->
-    <!-- Navigation -->
-    <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Logo and responsive toggle -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">
-                	<span class="glyphicon glyphicon-fire"></span> 
-                	LOGO
-                </a>
-            </div>
-            <!-- Navbar links -->
-            <div class="collapse navbar-collapse" id="navbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active">
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">Products</a>
-                    </li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
-						<ul class="dropdown-menu" aria-labelledby="about-us">
-							<li><a href="#">Engage</a></li>
-							<li><a href="#">Pontificate</a></li>
-							<li><a href="#">Synergize</a></li>
-						</ul>
-					</li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-                
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container -->
-    </nav>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: "Lato", sans-serif;
+        }
 
-	
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
 
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
 
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
 
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
 
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
 
-    <!--BACKGROUND AUDIO, NEEDS TESTING BY HAYDEN ON MONDAY-->
-<audio src="https://www.youtube.com/watch?v=BI54sKyqS7Y" autoplay="autoplay"  loop="loop" id="MusicPlayer">
-<embed src="https://www.youtube.com/watch?v=BI54sKyqS7Y" autoplay="true" width="450" height="300" name="MusicPlayer" id="MusicPlayer">
-</audio>
+            .sidenav a {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
 
-
-
-
-<!-SCROLLING TEXT AND IMAGE NEEDS TESTING BY NABEEL ON MONDAY-->
 <body>
-  <marquee behavior="scroll" direction="left" scrollamount="6" id="marquee5">Marquee slow/medium/fast speed using buttons</marquee>
-  <input type="button" value="Slower" onClick="document.getElementById('marquee5').setAttribute('scrollamount', 1, 0);" />
-  <input type="button" value="Medium" onClick="document.getElementById('marquee5').setAttribute('scrollamount', 5, 0);" />
-  <input type="button" value="Faster" onClick="document.getElementById('marquee5').setAttribute('scrollamount', 10, 0);" />
 
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+    </div>
 
+    <h2>Animated Sidenav Example</h2>
+    <p>Click on the element below to open the side navigation menu.</p>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
 
-  <body>
-  <marquee behavior="scroll" direction="up">
-    <img class="Mar" src="img/Car-Gray.jfif" width="120" height="80" alt="Natural" />
-  </marquee>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
 </body>
+
+</html>
