@@ -1,84 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
+<!--new navbar--Nabeel tests this monday -->
+    <!-- Navigation -->
+    <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Logo and responsive toggle -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                	<span class="glyphicon glyphicon-fire"></span> 
+                	LOGO
+                </a>
+            </div>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Products</a>
+                    </li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+						<ul class="dropdown-menu" aria-labelledby="about-us">
+							<li><a href="#">Engage</a></li>
+							<li><a href="#">Pontificate</a></li>
+							<li><a href="#">Synergize</a></li>
+						</ul>
+					</li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+                
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+    </nav>
 
+	
+
+
+
+
+
+    <!--BACKGROUND AUDIO, NEEDS TESTING BY HAYDEN ON MONDAY-->
+<audio src="https://www.youtube.com/watch?v=BI54sKyqS7Y" autoplay="autoplay"  loop="loop" id="MusicPlayer">
+<embed src="https://www.youtube.com/watch?v=BI54sKyqS7Y" autoplay="true" width="450" height="300" name="MusicPlayer" id="MusicPlayer">
+</audio>
+
+
+
+
+<!-SCROLLING TEXT AND IMAGE NEEDS TESTING BY NABEEL ON MONDAY-->
 <body>
-    <!-- Side navigation -->
-    <div class="sidenav">
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
-    </div>
-
-    <!-- Page content -->
-    <div class="main">
-        ...
-    </div>
+  <marquee behavior="scroll" direction="left" scrollamount="6" id="marquee5">Marquee slow/medium/fast speed using buttons</marquee>
+  <input type="button" value="Slower" onClick="document.getElementById('marquee5').setAttribute('scrollamount', 1, 0);" />
+  <input type="button" value="Medium" onClick="document.getElementById('marquee5').setAttribute('scrollamount', 5, 0);" />
+  <input type="button" value="Faster" onClick="document.getElementById('marquee5').setAttribute('scrollamount', 10, 0);" />
 
 
 
-    <style>
-        /* The sidebar menu */
-        .sidenav {
-            height: 100%;
-            /* Full-height: remove this if you want "auto" height */
-            width: 160px;
-            /* Set the width of the sidebar */
-            position: fixed;
-            /* Fixed Sidebar (stay in place on scroll) */
-            z-index: 1;
-            /* Stay on top */
-            top: 0;
-            /* Stay at the top */
-            left: 0;
-            background-color: #111;
-            /* Black */
-            overflow-x: hidden;
-            /* Disable horizontal scroll */
-            padding-top: 20px;
-        }
-
-        /* The navigation menu links */
-        .sidenav a {
-            padding: 6px 8px 6px 16px;
-            text-decoration: none;
-            font-size: 25px;
-            color: #818181;
-            display: block;
-        }
-
-        /* When you mouse over the navigation links, change their color */
-        .sidenav a:hover {
-            color: #f1f1f1;
-        }
-
-        /* Style page content */
-        .main {
-            margin-left: 160px;
-            /* Same as the width of the sidebar */
-            padding: 0px 10px;
-        }
-
-        /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font
-size) */
-        @media screen and (max-height: 450px) {
-            .sidenav {
-                padding-top: 15px;
-            }
-
-            .sidenav a {
-                font-size: 18px;
-            }
-        }
-    </style>
-
+  <body>
+  <marquee behavior="scroll" direction="up">
+    <img class="Mar" src="img/Car-Gray.jfif" width="120" height="80" alt="Natural" />
+  </marquee>
 </body>
-
-</html>
