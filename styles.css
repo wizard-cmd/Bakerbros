@@ -1,5 +1,6 @@
 #logo{
-size: ;
+width: 430;
+height:240;
 }
 
 .Op1{
@@ -34,4 +35,36 @@ size: ;
 
 .Op9 {
     opacity: .9;
+}
+.left{
+    float:left;
+    width:25.33%;
+}
+
+.right{
+    
+    width:74.66%;
+    align-items: center;
+}
+
+
+/*FOOTER CSS*/
+.page-footer .footer-copyright {
+    overflow: hidden;
+    min-height: 50px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 10px 0px;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(51, 51, 51, 0.08)
 }
